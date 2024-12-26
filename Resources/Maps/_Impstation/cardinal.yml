@@ -11538,6 +11538,13 @@ entities:
     - type: Transform
       pos: 33.425518,12.9925165
       parent: 2
+- proto: DrinkGrapeCan
+  entities:
+  - uid: 5093
+    components:
+    - type: Transform
+      pos: 4.564053,32.664474
+      parent: 2
 - proto: DrinkIceBucket
   entities:
   - uid: 3586
@@ -11591,6 +11598,11 @@ entities:
     components:
     - type: Transform
       pos: -4.6419015,45.606426
+      parent: 2
+  - uid: 5112
+    components:
+    - type: Transform
+      pos: -16.0131,41.6113
       parent: 2
 - proto: DrinkShaker
   entities:
@@ -13724,6 +13736,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: FoodBurgerBig
+  entities:
+  - uid: 5096
+    components:
+    - type: Transform
+      pos: 7.423428,32.664474
+      parent: 2
 - proto: FoodCartCold
   entities:
   - uid: 2361
@@ -13853,6 +13872,11 @@ entities:
     - type: Transform
       pos: 27.535254,-1.2542286
       parent: 2
+  - uid: 5095
+    components:
+    - type: Transform
+      pos: 7.439053,32.664474
+      parent: 2
 - proto: FoodPlateTin
   entities:
   - uid: 2295
@@ -13871,6 +13895,13 @@ entities:
     components:
     - type: Transform
       pos: -2.4998302,11.628514
+      parent: 2
+- proto: FoodSnackBoritos
+  entities:
+  - uid: 5094
+    components:
+    - type: Transform
+      pos: 5.017178,32.664474
       parent: 2
 - proto: FoodSnackChowMein
   entities:
@@ -22917,10 +22948,27 @@ entities:
       parent: 2
 - proto: MedkitBruteFilled
   entities:
-  - uid: 4945
+  - uid: 5098
     components:
     - type: Transform
-      pos: -18.377747,43.58685
+      pos: -1.0059768,35.52695
+      parent: 2
+  - uid: 5103
+    components:
+    - type: Transform
+      pos: -1.0059768,35.6832
+      parent: 2
+- proto: MedkitBurnFilled
+  entities:
+  - uid: 5106
+    components:
+    - type: Transform
+      pos: -0.4434768,35.52695
+      parent: 2
+  - uid: 5107
+    components:
+    - type: Transform
+      pos: -0.4434768,35.667576
       parent: 2
 - proto: MedkitCombatFilled
   entities:
@@ -22941,12 +22989,73 @@ entities:
     - type: Transform
       pos: -14.517369,25.642418
       parent: 2
+  - uid: 5104
+    components:
+    - type: Transform
+      pos: -1.5841018,35.6832
+      parent: 2
+  - uid: 5105
+    components:
+    - type: Transform
+      pos: -1.5841018,35.52695
+      parent: 2
+- proto: MedkitNitrogenFilled
+  entities:
+  - uid: 5100
+    components:
+    - type: Transform
+      pos: -7.4759808,36.568764
+      parent: 2
+  - uid: 5101
+    components:
+    - type: Transform
+      pos: -7.4759808,36.64689
+      parent: 2
 - proto: MedkitOxygenFilled
   entities:
   - uid: 4400
     components:
     - type: Transform
       pos: -14.407994,25.767418
+      parent: 2
+  - uid: 4945
+    components:
+    - type: Transform
+      pos: -9.491606,36.662514
+      parent: 2
+  - uid: 5099
+    components:
+    - type: Transform
+      pos: -9.491606,36.58439
+      parent: 2
+- proto: MedkitRadiationFilled
+  entities:
+  - uid: 5108
+    components:
+    - type: Transform
+      pos: 0.119023204,35.52695
+      parent: 2
+  - uid: 5109
+    components:
+    - type: Transform
+      pos: 0.103398204,35.65195
+      parent: 2
+- proto: MedkitToxinFilled
+  entities:
+  - uid: 4845
+    components:
+    - type: Transform
+      pos: -18.407555,43.594276
+      parent: 2
+  - uid: 5110
+    components:
+    - type: Transform
+      pos: 0.6502732,35.511326
+      parent: 2
+  - uid: 5111
+    components:
+    - type: Transform
+      pos: 0.6502732,35.6207
       parent: 2
 - proto: MicroManipulatorStockPart
   entities:
@@ -23757,10 +23866,9 @@ entities:
       rot: 3.141592653589793 rad
       pos: 26.5,-4.5
       parent: 2
-  - uid: 4845
+  - uid: 5102
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
       pos: -8.5,33.5
       parent: 2
 - proto: PowerDrill
@@ -24677,6 +24785,13 @@ entities:
     components:
     - type: Transform
       pos: 40.5,5.5
+      parent: 2
+- proto: RandomSpawner100
+  entities:
+  - uid: 5097
+    components:
+    - type: Transform
+      pos: 6.5,32.5
       parent: 2
 - proto: RandomVendingDrinks
   entities:
