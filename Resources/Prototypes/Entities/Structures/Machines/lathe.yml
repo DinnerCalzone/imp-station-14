@@ -540,6 +540,7 @@
       - MassMediaCircuitboard
       - ReagentGrinderIndustrialMachineCircuitboard
       - JukeboxCircuitBoard
+      - SMESAdvancedMachineCircuitboard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard
@@ -595,6 +596,7 @@
     - BorgModuleTool
     - BorgModuleBartender
     - BorgModulePaper
+    - BorgModuleArtistic #imp special
     - CyborgEndoskeleton
     - LeftArmBorg
     - RightArmBorg
@@ -728,6 +730,8 @@
       - MagazineBoxLightRiflePractice
       - MagazineBoxMagnum
       - MagazineBoxMagnumPractice
+      - MagazineBoxLPistol
+      - MagazineBoxLPistolPractice
       - MagazineBoxPistol
       - MagazineBoxPistolPractice
       - MagazineBoxRifle
@@ -736,6 +740,9 @@
       - MagazineDMREmpty
       - MagazineLightRifle
       - MagazineLightRifleEmpty
+      - MagazineLPistol
+      - MagazineLPistolEmpty
+      - MagazineLPistolPractice
       - MagazinePistol
       - MagazinePistolEmpty
       - MagazinePistolSubMachineGun
@@ -774,9 +781,7 @@
       - HyperBurstConversionKit
       - MagazineBoxLightRifleIncendiary
       - MagazineBoxLightRifleUranium
-      - MagazineBoxLPistol
       - MagazineBoxLPistolIncendiary
-      - MagazineBoxLPistolPractice
       - MagazineBoxLPistolUranium
       - MagazineBoxMagnumIncendiary
       - MagazineBoxMagnumUranium
@@ -789,10 +794,7 @@
       - MagazineGrenadeEmpty
       - MagazineLightRifleIncendiary
       - MagazineLightRifleUranium
-      - MagazineLPistol
-      - MagazineLPistolEmpty
       - MagazineLPistolIncendiary
-      - MagazineLPistolPractice
       - MagazineLPistolUranium
       - MagazinePistolIncendiary
       - MagazinePistolUranium
@@ -991,6 +993,7 @@
       - ClothingUniformJumpskirtBartender
       - ClothingHeadHatCapcap
       - ClothingHeadHatCaptain
+      - ClothingHeadHatBeretCaptain # imp
       - ClothingUniformJumpsuitCaptain
       - ClothingUniformJumpskirtCaptain
       - ClothingUniformJumpsuitCapFormal
@@ -1272,7 +1275,7 @@
       staticRecipes:
         - SheetSteel
         - SheetGlass1
-        - SheetRGlass
+        - SheetRGlassRaw
         - SheetPlasma1
         - SheetPGlass1
         - SheetRPGlass1
@@ -1298,7 +1301,7 @@
     staticRecipes:
       - SheetSteel
       - SheetGlass1
-      - SheetRGlass
+      - SheetRGlassRaw
       - SheetPlasma1
       - SheetPGlass1
       - SheetRPGlass1
