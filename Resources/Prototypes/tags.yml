@@ -1232,6 +1232,9 @@
   id: Smokable
 
 - type: Tag
+  id: SnapPop
+
+- type: Tag
   id: SnowyLabs
 
 - type: Tag
@@ -1422,6 +1425,9 @@
 
 - type: Tag
   id: WeldingMask
+
+- type: Tag #imp addon (why the fuck doesn't this exist upstream)
+  id: WeldingTool
 
 - type: Tag
   id: WetFloorSign
