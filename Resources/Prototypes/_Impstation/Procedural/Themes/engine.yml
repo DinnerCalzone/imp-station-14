@@ -1,0 +1,19 @@
+- type: dungeonRoom
+  id: Maints5x5a
+  size: 2,2
+  atlas: /Maps/_Impstation/Dungeon/randtest.yml
+  offset: 0,0
+  tags:
+  - RandomEngineHummingbird
+
+- type: entity
+  id: MaintsRoomMarker
+  parent: BaseRoomMarker
+  name: Maints interior marker
+  components:
+  - type: RoomFill
+    rotation: false
+    size: 2,2
+    roomWhitelist:
+      tags:
+      - RandomEngineHummingbird
