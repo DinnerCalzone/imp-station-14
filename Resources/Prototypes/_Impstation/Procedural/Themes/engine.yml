@@ -1,19 +1,41 @@
 - type: dungeonRoom
-  id: Maints5x5a
-  size: 2,2
-  atlas: /Maps/_Impstation/Dungeon/randtest.yml
-  offset: 0,0
+  id: HummingbirdTeslaEngine
+  size: 35,24
+  atlas: /Maps/_Impstation/Dungeon/hummingbird_engine.yml
+  offset: 0,-1
+  tags:
+  - RandomEngineHummingbird
+
+- type: dungeonRoom
+  id: HummingbirdSingularityEngine
+  size: 35,24
+  atlas: /Maps/_Impstation/Dungeon/hummingbird_engine.yml
+  offset: 36,-1
+  tags:
+  - RandomEngineHummingbird
+
+- type: dungeonRoom
+  id: HummingbirdSupermatterEngine
+  size: 35,24
+  atlas: /Maps/_Impstation/Dungeon/hummingbird_engine.yml
+  offset: 72,-1
   tags:
   - RandomEngineHummingbird
 
 - type: entity
   id: MaintsRoomMarker
   parent: BaseRoomMarker
-  name: Maints interior marker
+  name: Random Engine Room Marker
+  suffix: Hummingbird Station
   components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Structures/Wallmounts/signs.rsi
+        state: engine
   - type: RoomFill
     rotation: false
-    size: 2,2
+    size: 35,24
     roomWhitelist:
       tags:
       - RandomEngineHummingbird
