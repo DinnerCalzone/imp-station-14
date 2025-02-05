@@ -1085,18 +1085,6 @@ entities:
       - 192
       - 194
       - 209
-  - uid: 379
-    components:
-    - type: MetaData
-      name: CE's Office
-    - type: Transform
-      pos: 34.5,2.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 385
-      - 384
-      - 383
   - uid: 406
     components:
     - type: MetaData
@@ -1137,18 +1125,6 @@ entities:
       - 825
       - 826
       - 824
-  - uid: 726
-    components:
-    - type: MetaData
-      name: CE's Office
-    - type: Transform
-      pos: 70.5,2.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 850
-      - 848
-      - 849
   - uid: 727
     components:
     - type: MetaData
@@ -1190,18 +1166,6 @@ entities:
       - 1086
       - 1081
       - 1573
-  - uid: 1071
-    components:
-    - type: MetaData
-      name: CE's Office
-    - type: Transform
-      pos: 106.5,2.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 1066
-      - 1082
-      - 1085
   - uid: 1072
     components:
     - type: MetaData
@@ -1245,6 +1209,23 @@ entities:
       - 1563
       - 1559
       - 1772
+- proto: AirAlarmCEOffice
+  entities:
+  - uid: 379
+    components:
+    - type: Transform
+      pos: 34.5,2.5
+      parent: 1
+  - uid: 384
+    components:
+    - type: Transform
+      pos: 70.5,2.5
+      parent: 1
+  - uid: 726
+    components:
+    - type: Transform
+      pos: 106.5,2.5
+      parent: 1
 - proto: AirAlarmSupermatter
   entities:
   - uid: 1550
@@ -1437,7 +1418,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 379
       - 382
   - uid: 408
     components:
@@ -1473,7 +1453,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 726
       - 729
   - uid: 862
     components:
@@ -1500,7 +1479,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 1071
       - 1075
   - uid: 1067
     components:
@@ -5672,7 +5650,6 @@ entities:
     - type: DeviceList
       devices:
       - 385
-      - 384
       - 383
   - uid: 407
     components:
@@ -5708,7 +5685,6 @@ entities:
     - type: DeviceList
       devices:
       - 849
-      - 848
       - 850
   - uid: 730
     components:
@@ -5760,7 +5736,6 @@ entities:
     - type: DeviceList
       devices:
       - 1066
-      - 1082
       - 1085
   - uid: 1076
     components:
@@ -8015,17 +7990,6 @@ entities:
       - 189
     - type: AtmosPipeColor
       color: '#0055CCFF'
-  - uid: 384
-    components:
-    - type: Transform
-      pos: 32.5,1.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 379
-      - 382
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
   - uid: 405
     components:
     - type: Transform
@@ -8061,17 +8025,6 @@ entities:
       - 830
     - type: AtmosPipeColor
       color: '#0055CCFF'
-  - uid: 848
-    components:
-    - type: Transform
-      pos: 68.5,1.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 726
-      - 729
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
   - uid: 861
     components:
     - type: Transform
@@ -8105,17 +8058,6 @@ entities:
       deviceLists:
       - 1070
       - 1076
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
-  - uid: 1082
-    components:
-    - type: Transform
-      pos: 104.5,1.5
-      parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 1071
-      - 1075
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1083
@@ -8173,6 +8115,23 @@ entities:
       - 1771
     - type: AtmosPipeColor
       color: '#0055CCFF'
+- proto: GasVentPumpDistro
+  entities:
+  - uid: 848
+    components:
+    - type: Transform
+      pos: 32.5,1.5
+      parent: 1
+  - uid: 1071
+    components:
+    - type: Transform
+      pos: 68.5,1.5
+      parent: 1
+  - uid: 1082
+    components:
+    - type: Transform
+      pos: 104.5,1.5
+      parent: 1
 - proto: GasVentPumpSupermatter
   entities:
   - uid: 1133
@@ -8238,7 +8197,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 379
       - 382
     - type: AtmosPipeColor
       color: '#990000FF'
@@ -8284,7 +8242,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 726
       - 729
     - type: AtmosPipeColor
       color: '#990000FF'
@@ -8317,7 +8274,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 1071
       - 1075
     - type: AtmosPipeColor
       color: '#990000FF'
@@ -9925,6 +9881,18 @@ entities:
     - type: Transform
       pos: 89.5,12.5
       parent: 1
+- proto: PosterLegitSafetyMothDelam
+  entities:
+  - uid: 2011
+    components:
+    - type: Transform
+      pos: 95.5,8.5
+      parent: 1
+  - uid: 2014
+    components:
+    - type: Transform
+      pos: 83.5,13.5
+      parent: 1
 - proto: PosterLegitSafetyMothHardhat
   entities:
   - uid: 163
@@ -9936,6 +9904,23 @@ entities:
     components:
     - type: Transform
       pos: 68.5,18.5
+      parent: 1
+  - uid: 2013
+    components:
+    - type: Transform
+      pos: 104.5,16.5
+      parent: 1
+- proto: PosterLegitSafetyMothPiping
+  entities:
+  - uid: 2012
+    components:
+    - type: Transform
+      pos: 95.5,12.5
+      parent: 1
+  - uid: 2015
+    components:
+    - type: Transform
+      pos: 83.5,7.5
       parent: 1
 - proto: PottedPlantRandom
   entities:

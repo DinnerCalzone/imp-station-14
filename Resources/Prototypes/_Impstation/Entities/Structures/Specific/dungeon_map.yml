@@ -1,0 +1,686 @@
+# Prototypes here are used for dungeon maps (e.g. Hummingbird's random engine room),
+# as edits to entities on dungeon maps do not carry over when spawned in on another map
+
+#Air Alarms
+- type: entity
+  id: AirAlarmAME
+  parent: AirAlarm
+  name: AME
+  suffix: Air Alarm
+  
+- type: entity
+  id: AirAlarmCEOffice
+  parent: AirAlarm
+  name: CE's Office
+  suffix: Air Alarm
+
+- type: entity
+  id: AirAlarmCEQuarters
+  parent: AirAlarm
+  name: CE's Quarters
+  suffix: Air Alarm
+  
+- type: entity
+  id: AirAlarmPA
+  parent: AirAlarm
+  name: PA
+  suffix: Air Alarm
+
+- type: entity
+  id: AirAlarmSMEmitters
+  parent: AirAlarm
+  name: Supermatter Emitters
+  suffix: Air Alarm
+
+- type: entity
+  id: AirAlarmSMMonitoring
+  parent: AirAlarm
+  name: Supermatter Monitoring
+  suffix: Air Alarm
+
+- type: entity
+  id: AirAlarmSMPerimeter
+  parent: AirAlarm
+  name: Supermatter Perimeter
+  suffix: Air Alarm
+
+- type: entity
+  id: AirAlarmSMChamber
+  parent: AirAlarmSupermatter
+  name: Supermatter Chamber
+  suffix: Air Alarm Supermatter
+
+#Fire Alarms
+- type: entity
+  id: FireAlarmAME
+  parent: FireAlarm
+  name: AME
+  suffix: Fire Alarm
+
+- type: entity
+  id: FireAlarmCEOffice
+  parent: FireAlarm
+  name: CE's Office
+  suffix: Fire Alarm
+
+- type: entity
+  id: FireAlarmCEQuarters
+  parent: FireAlarm
+  name: CE's Quarters
+  suffix: Fire Alarm
+
+- type: entity
+  id: FireAlarmPA
+  parent: FireAlarm
+  name: PA
+  suffix: Fire Alarm
+
+- type: entity
+  id: FireAlarmSMEmitters
+  parent: FireAlarm
+  name: Supermatter Emitters
+  suffix: Fire Alarm
+
+- type: entity
+  id: FireAlarmSMMonitoring
+  parent: FireAlarm
+  name: Supermatter Monitoring
+  suffix: Fire Alarm
+  
+- type: entity
+  id: FireAlarmSMPerimeter
+  parent: FireAlarm
+  name: Supermatter Perimeter
+  suffix: Fire Alarm
+  
+# APCs
+- type: entity
+  id: APCBasicSMMonitoring
+  parent: APCBasic
+  name: Supermatter Monitoring APC
+
+- type: entity
+  id: APCBasicSMPerimeter
+  parent: APCBasic
+  name: Supermatter Perimeter APC
+
+- type: entity
+  id: APCBasicSMEmitters
+  parent: APCBasic
+  name: Supermatter Emitters APC
+
+- type: entity
+  id: APCBasicPA
+  parent: APCBasic
+  name: PA APC
+ 
+# Substations
+- type: entity
+  id: SubstationBasicSMMonitoring
+  parent: SubstationBasic
+  name: Supermatter Monitoring Substation
+
+- type: entity
+  id: SubstationBasicSMEmitters
+  parent: SubstationBasic
+  name: Supermatter Emitters Substation
+  
+- type: entity
+  id: SubstationBasicPA
+  parent: SubstationBasic
+  name: PA Substation
+
+# SMES
+- type: entity
+  id: SMESBasicSMMonitoring
+  parent: SMESBasic
+  name: Supermatter Monitoring SMES
+
+- type: entity
+  id: SMESBasicSMEmitters
+  parent: SMESBasic
+  name: Supermatter Emitters SMES
+  
+- type: entity
+  id: SMESBasicSMPA
+  parent: SMESBasic
+  name: PA SMES
+  
+# Pipes
+# Distro (dark blue)
+- type: entity
+  id: GasPipeStraightDistro
+  parent: GasPipeStraight
+  suffix: Straight, Distro
+  components:
+  - type: AtmosPipeColor
+    color: "#0055cc"
+    
+- type: entity
+  id: GasPipeBendDistro
+  parent: GasPipeBend
+  suffix: Bend, Distro
+  components:
+  - type: AtmosPipeColor
+    color: "#0055cc"
+    
+- type: entity
+  id: GasPipeTJunctionDistro
+  parent: GasPipeTJunction
+  suffix: TJunction, Distro
+  components:
+  - type: AtmosPipeColor
+    color: "#0055cc"
+
+- type: entity
+  id: GasPipeFourwayDistro
+  parent: GasPipeFourway
+  suffix: Fourway, Distro
+  components:
+  - type: AtmosPipeColor
+    color: "#0055cc"
+
+- type: entity
+  id: GasVentPumpDistro
+  parent: GasVentPump
+  suffix: Distro
+  components:
+  - type: AtmosPipeColor
+    color: "#0055cc"
+
+# Waste (dark red)
+- type: entity
+  id: GasPipeStraightWaste
+  parent: GasPipeStraight
+  suffix: Straight, Waste
+  components:
+  - type: AtmosPipeColor
+    color: "#990000"
+    
+- type: entity
+  id: GasPipeBendWaste
+  parent: GasPipeBend
+  suffix: Bend, Waste
+  components:
+  - type: AtmosPipeColor
+    color: "#990000"
+    
+- type: entity
+  id: GasPipeTJunctionWaste
+  parent: GasPipeTJunction
+  suffix: TJunction, Waste
+  components:
+  - type: AtmosPipeColor
+    color: "#990000"
+
+- type: entity
+  id: GasPipeFourwayWaste
+  parent: GasPipeFourway
+  suffix: Fourway, Waste
+  components:
+  - type: AtmosPipeColor
+    color: "#990000"
+
+- type: entity
+  id: GasVentScrubberWaste
+  parent: GasVentScrubber
+  suffix: Waste
+  components:
+  - type: AtmosPipeColor
+    color: "#990000"
+
+# Air (cyan)
+- type: entity
+  id: GasPipeStraightAir
+  parent: GasPipeStraight
+  suffix: Straight, Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+    
+- type: entity
+  id: GasPipeBendAir
+  parent: GasPipeBend
+  suffix: Bend, Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+    
+- type: entity
+  id: GasPipeTJunctionAir
+  parent: GasPipeTJunction
+  suffix: TJunction, Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasPipeFourwayAir
+  parent: GasPipeFourway
+  suffix: Fourway, Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasVentPumpSupermatterAir
+  parent: GasVentPumpSupermatter
+  suffix: Supermatter, Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasFilterAir
+  parent: GasFilter
+  suffix: Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasFilterFlippedAir
+  parent: GasFilterFlipped
+  suffix: Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasPressurePumpAir
+  parent: GasPressurePump
+  suffix: Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasVolumePumpAir
+  parent: GasVolumePump
+  suffix: Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+- type: entity
+  id: GasPipeSensorAir
+  parent: GasPipeSensor
+  suffix: Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+  - type: Label
+    currentLabel: "Supermatter input"
+
+- type: entity
+  id: GasPortAir
+  parent: GasPort
+  suffix: Air
+  components:
+  - type: AtmosPipeColor
+    color: "#03fcd3"
+
+# Green
+- type: entity
+  id: GasPipeStraightGreen
+  parent: GasPipeStraight
+  suffix: Straight, Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+    
+- type: entity
+  id: GasPipeBendGreen
+  parent: GasPipeBend
+  suffix: Bend, Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+    
+- type: entity
+  id: GasPipeTJunctionGreen
+  parent: GasPipeTJunction
+  suffix: TJunction, Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+
+- type: entity
+  id: GasPipeFourwayGreen
+  parent: GasPipeFourway
+  suffix: Fourway, Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+
+- type: entity
+  id: GasVentScrubberSupermatterGreen
+  parent: GasVentScrubberSupermatter
+  suffix: Supermatter, Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+
+- type: entity
+  id: GasFilterGreen
+  parent: GasFilter
+  suffix: Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+
+- type: entity
+  id: GasFilterFlippedGreen
+  parent: GasFilterFlipped
+  suffix: Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+
+- type: entity
+  id: GasPressurePumpGreen
+  parent: GasPressurePump
+  suffix: Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+
+- type: entity
+  id: GasPipeSensorGreen
+  parent: GasPipeSensor
+  suffix: Green
+  components:
+  - type: AtmosPipeColor
+    color: "#3AB334FF"
+  - type: Label
+    currentLabel: "Supermatter output"
+
+# Orange
+- type: entity
+  id: GasPipeStraightOrange
+  parent: GasPipeStraight
+  suffix: Straight, Orange
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+    
+- type: entity
+  id: GasPipeBendOrange
+  parent: GasPipeBend
+  suffix: Bend, Orange
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+    
+- type: entity
+  id: GasPipeTJunctionOrange
+  parent: GasPipeTJunction
+  suffix: TJunction, Orange
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+
+- type: entity
+  id: GasPipeFourwayOrange
+  parent: GasPipeFourway
+  suffix: Fourway, Orange
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+
+- type: entity
+  id: GasPressurePumpOrange
+  parent: GasPressurePump
+  suffix: Orange
+  name: Input from atmos
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+
+- type: entity
+  id: GasPipeSensorOrange
+  parent: GasPipeSensor
+  suffix: Orange
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+  - type: Label
+    currentLabel: "Atmos to supermatter"
+
+- type: entity
+  id: GasPipeBrokenOrange
+  parent: GasPipeBroken
+  suffix: Orange
+  components:
+  - type: AtmosPipeColor
+    color: "#FF6600FF"
+
+# Red
+- type: entity
+  id: GasPipeStraightRed
+  parent: GasPipeStraight
+  suffix: Straight, Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+    
+- type: entity
+  id: GasPipeBendRed
+  parent: GasPipeBend
+  suffix: Bend, Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+    
+- type: entity
+  id: GasPipeTJunctionRed
+  parent: GasPipeTJunction
+  suffix: TJunction, Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+- type: entity
+  id: GasPipeFourwayRed
+  parent: GasPipeFourway
+  suffix: Fourway, Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+- type: entity
+  id: GasFilterRed
+  parent: GasFilter
+  suffix: Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+- type: entity
+  id: GasFilterFlippedRed
+  parent: GasFilterFlipped
+  suffix: Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+- type: entity
+  id: GasValveRed
+  parent: GasValve
+  suffix: Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+- type: entity
+  id: GasPassiveVentRed
+  parent: GasPassiveVent
+  suffix: Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+- type: entity
+  id: GasPortRed
+  parent: GasPort
+  suffix: Red
+  components:
+  - type: AtmosPipeColor
+    color: "#FF1212FF"
+
+# Cameras
+- type: entity
+  id: SurveillanceCameraEngineeringCEOffice
+  parent: SurveillanceCameraEngineering
+  suffix: CE's Office
+  components:
+  - type: SurveillanceCamera
+    id: "CE's Office"
+
+- type: entity
+  id: SurveillanceCameraEngineeringCEQuarters
+  parent: SurveillanceCameraEngineering
+  suffix: CE's Quarters
+  components:
+  - type: SurveillanceCamera
+    id: "CE's Quarters"
+
+- type: entity
+  id: SurveillanceCameraEngineeringAME
+  parent: SurveillanceCameraEngineering
+  suffix: AME
+  components:
+  - type: SurveillanceCamera
+    id: "AME"
+
+- type: entity
+  id: SurveillanceCameraEngineeringPA
+  parent: SurveillanceCameraEngineering
+  suffix: PA
+  components:
+  - type: SurveillanceCamera
+    id: "PA"
+
+- type: entity
+  id: SurveillanceCameraEngineeringTesla1
+  parent: SurveillanceCameraEngineering
+  suffix: Tesla 1
+  components:
+  - type: SurveillanceCamera
+    id: "Tesla 1"
+
+- type: entity
+  id: SurveillanceCameraEngineeringTesla2
+  parent: SurveillanceCameraEngineering
+  suffix: Tesla 2
+  components:
+  - type: SurveillanceCamera
+    id: "Tesla 2"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSingularity1
+  parent: SurveillanceCameraEngineering
+  suffix: Singularity 1
+  components:
+  - type: SurveillanceCamera
+    id: "Singularity 1"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSingularity2
+  parent: SurveillanceCameraEngineering
+  suffix: Singularity 2
+  components:
+  - type: SurveillanceCamera
+    id: "Singularity 2"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMPerimeterEntrance
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Perimeter Entrance
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Perimeter Entrance"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMPerimeterRadiators
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Perimeter Radiators
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Perimeter Radiators"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMPerimeterFilters
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Perimeter Filters
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Perimeter Filters"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMPerimeterFreezers
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Perimeter Freezers
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Perimeter Freezers"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMChamber
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Chamber
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Chamber"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMEmitters
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Emitters
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Emitters"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMAirlock
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter External Airlock
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter External Airlock"
+
+- type: entity
+  id: SurveillanceCameraEngineeringSMStorage
+  parent: SurveillanceCameraEngineering
+  suffix: Supermatter Canister Storage"
+  components:
+  - type: SurveillanceCamera
+    id: "Supermatter Canister Storage"
+
+- type: entity
+  id: SurveillanceWirelessCameraAnchoredEntertainmentCrystalChronicles
+  parent: SurveillanceWirelessCameraAnchoredEntertainment
+  suffix: Supermatter Entertainment Cameras
+  name: The Crystal Chronicles Cameras
+  components:
+  - type: SurveillanceCamera
+    id: "The Crystal Chronicles"
+
+# Fax Machine
+- type: entity
+  id: FaxMachineBaseCE
+  parent: FaxMachineBase
+  suffix: CE's Office
+  components:
+  - type: FaxMachine
+    name: "CE's Office"
+    
+# Suppy...
+- type: entity
+  id: FoodCakeSuppermatterSliceSuppy
+  parent: FoodCakeSuppermatterSlice
+  name: Suppy
+  description: A single portion of power. He doesn't bite.
+  components:
+  - type: Food
+    transferAmount: 0
