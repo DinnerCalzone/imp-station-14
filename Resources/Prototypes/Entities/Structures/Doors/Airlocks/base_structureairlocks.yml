@@ -22,23 +22,23 @@
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
     - state: closed_unlit
-      sprite: &component-rsi Structures/Doors/Airlocks/Components/painted.rsi
+      sprite: &components-rsi Structures/Doors/Airlocks/Shared/basic.rsi
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseUnlit"]
       visible: false
     - state: welded
-      sprite: *component-rsi
+      sprite: *components-rsi
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: bolted_unlit
-      sprite: *component-rsi
+      sprite: *components-rsi
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseBolted"]
     - state: emergency_unlit
-      sprite: *component-rsi
+      sprite: *components-rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
     - state: panel_open
-      sprite: *component-rsi
+      sprite: *components-rsi
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - state: electrified_ai
       sprite: Interface/Misc/ai_hud.rsi
@@ -51,7 +51,7 @@
       visible: false
       map: ["enum.ElectrifiedLayers.Sparks"]
     - state: sparks
-      sprite: *component-rsi
+      sprite: *components-rsi
       map: ["enum.DoorVisualLayers.BaseEmagging"]
       shader: unshaded
       visible: false
@@ -214,7 +214,7 @@
   - type: Occluder
     enabled: false
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/glass.rsi
+    sprite: Structures/Doors/Airlocks/Glass/basic.rsi
   - type: AnimationPlayer
   - type: Fixtures
     fixtures:

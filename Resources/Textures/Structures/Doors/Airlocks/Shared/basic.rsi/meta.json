@@ -8,86 +8,13 @@
   },
   "states": [
     {
-      "name": "assembly"
-    },
-    {
-      "name": "assembly-fill"
-    },
-    {
-      "name": "assembly-glass"
-    },
-    {
       "name": "bolted_unlit"
-    },
-    {
-      "name": "closed"
     },
     {
       "name": "closed_unlit"
     },
     {
-      "name": "closed-fill"
-    },
-    {
-      "name": "closed-glass"
-    },
-    {
-      "name": "panel_closed"
-    },
-    {
-      "name": "closing",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
-        ]
-      ]
-    },
-    {
       "name": "closing_unlit",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
-        ]
-      ]
-    },
-    {
-      "name": "closing-fill",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
-        ]
-      ]
-    },
-    {
-      "name": "closing-glass",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
-        ]
-      ]
-    },
-    {
-      "name": "closing-panel",
       "delays": [
         [
           0.1,
@@ -110,21 +37,11 @@
       ]
     },
     {
-      "name": "open"
-    },
-    {
-      "name": "panel_open"
-    },
-    {
-      "name": "opening",
+      "name": "emergency_unlit",
       "delays": [
         [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
+          0.4,
+          0.4
         ]
       ]
     },
@@ -142,7 +59,10 @@
       ]
     },
     {
-      "name": "opening-fill",
+      "name": "panel_closed"
+    },
+    {
+      "name": "panel_closing",
       "delays": [
         [
           0.1,
@@ -155,20 +75,10 @@
       ]
     },
     {
-      "name": "opening-glass",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
-        ]
-      ]
+      "name": "panel_open"
     },
     {
-      "name": "opening-panel",
+      "name": "panel_opening",
       "delays": [
         [
           0.1,
@@ -235,15 +145,6 @@
     },
     {
       "name": "welded"
-    },
-    {
-      "name": "emergency_unlit",
-      "delays": [
-        [
-          0.4,
-          0.4
-        ]
-      ]
     }
   ]
 }

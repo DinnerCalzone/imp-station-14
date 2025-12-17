@@ -608,7 +608,7 @@
       board: [ DoorElectronicsChapel ]
 
 - type: entity
-  parent: AirlockStandardGlass
+  parent: AirlockServiceGlass
   id: AirlockChapelStandardGlassLocked
   suffix: Chapel, Locked
   components:
