@@ -1,3 +1,47 @@
+# Base entity used for sprite layer data
+- type: entity
+  id: BaseAirlockClockwork
+  abstract: true
+  components:
+  - type: Sprite
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+    - state: closed_unlit
+      sprite: &components-rsi Structures/Doors/Airlocks/Shared/clockwork.rsi
+      shader: unshaded
+      map: ["enum.DoorVisualLayers.BaseUnlit"]
+      visible: false
+    - state: welded
+      sprite: *components-rsi
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: bolted_unlit
+      sprite: *components-rsi
+      shader: unshaded
+      map: ["enum.DoorVisualLayers.BaseBolted"]
+    - state: emergency_unlit
+      sprite: *components-rsi
+      map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
+      shader: unshaded
+    - state: panel_open
+      sprite: *components-rsi
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - state: electrified_ai
+      sprite: Interface/Misc/ai_hud.rsi
+      shader: unshaded
+      visible: false
+      map: ["enum.ElectrifiedLayers.HUD"]
+    - state: electrified
+      sprite: Effects/electricity.rsi
+      shader: unshaded
+      visible: false
+      map: ["enum.ElectrifiedLayers.Sparks"]
+    - state: sparks
+      sprite: *components-rsi
+      map: ["enum.DoorVisualLayers.BaseEmagging"]
+      shader: unshaded
+      visible: false
+
 - type: entity
   parent: Airlock
   id: PinionAirlock
