@@ -18,13 +18,13 @@
           "/Audio/Weapons/smash.ogg"
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/basic.rsi
+    sprite: Structures/Doors/Airlocks/Standard/public.rsi
     snapCardinals: true
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
     - state: closed_unlit
-      sprite: &components-rsi Structures/Doors/Airlocks/Shared/basic.rsi
+      sprite: &components-rsi Structures/Doors/Airlocks/Shared/public.rsi
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseUnlit"]
       visible: false
@@ -214,7 +214,7 @@
   - type: Occluder
     enabled: false
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/basic.rsi
+    sprite: Structures/Doors/Airlocks/Glass/public.rsi
   - type: AnimationPlayer
   - type: Fixtures
     fixtures:

@@ -118,14 +118,14 @@
     sprite: Structures/Doors/Airlocks/Glass/external.rsi
     state: "assembly"
 
-#Public (Glass Airlock)
+#Public (Glass Airlock, solid version handled in base_assembly.yml)
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyGlass
   suffix: Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/glass.rsi
+    sprite: Structures/Doors/Airlocks/Glass/public.rsi
     state: "assembly"
 
 #Freezer
