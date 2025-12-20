@@ -2,10 +2,9 @@
   id: AirlockStandard
   time: 3
   cost: 3
-  defaultStyle: basic
+  defaultStyle: public
   styles:
     atmospherics: AirlockAtmospherics
-    basic: Airlock
     cargo: AirlockCargo
     chemistry: AirlockChemistry
     command: AirlockCommand
@@ -14,19 +13,20 @@
     hydroponics: AirlockHydroponics
     maintenance: AirlockMaint
     medical: AirlockMedical
+    public: Airlock
     salvage: AirlockSalvage
     science: AirlockScience
     security: AirlockSecurity
+    service: AirlockService
     virology: AirlockVirology
 
 - type: paintableGroup
   id: AirlockGlass
   time: 3
   cost: 3
-  defaultStyle: basic
+  defaultStyle: public
   styles:
     atmospherics: AirlockAtmosphericsGlass
-    basic: AirlockGlass
     cargo: AirlockCargoGlass
     chemistry: AirlockChemistryGlass
     command: AirlockCommandGlass
@@ -34,7 +34,9 @@
     hydroponics: AirlockHydroponicsGlass
     maintenance: AirlockMaintGlass
     medical: AirlockMedicalGlass
+    public: AirlockGlass
     salvage: AirlockSalvageGlass
     science: AirlockScienceGlass
     security: AirlockSecurityGlass
+    service: AirlockServiceGlass
     virology: AirlockVirologyGlass

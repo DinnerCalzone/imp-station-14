@@ -35,18 +35,23 @@
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
     - state: closed_unlit
+      sprite: &components-rsi Structures/Doors/Airlocks/Shared/shuttle.rsi
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseUnlit"]
       visible: false
     - state: welded
+      sprite: *components-rsi
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: bolted_unlit
+      sprite: *components-rsi
       shader: unshaded
       map: ["enum.DoorVisualLayers.BaseBolted"]
     - state: emergency_unlit
+      sprite: *components-rsi
       map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
       shader: unshaded
     - state: panel_open
+      sprite: *components-rsi
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - state: electrified_ai
       sprite: Interface/Misc/ai_hud.rsi

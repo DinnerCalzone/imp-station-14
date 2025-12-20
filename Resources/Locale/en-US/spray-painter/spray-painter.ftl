@@ -63,7 +63,6 @@ spray-painter-tab-group-walllocker = Secure (Wall)
 
 # Airlocks
 spray-painter-style-airlockstandard-atmospherics = Atmospheric
-spray-painter-style-airlockstandard-basic = Basic
 spray-painter-style-airlockstandard-cargo = Cargo
 spray-painter-style-airlockstandard-chemistry = Chemistry
 spray-painter-style-airlockstandard-command = Command
@@ -72,13 +71,14 @@ spray-painter-style-airlockstandard-freezer = Freezer
 spray-painter-style-airlockstandard-hydroponics = Hydroponics
 spray-painter-style-airlockstandard-maintenance = Maintenance
 spray-painter-style-airlockstandard-medical = Medical
+spray-painter-style-airlockstandard-public = public
 spray-painter-style-airlockstandard-salvage = Salvage
 spray-painter-style-airlockstandard-science = Science
 spray-painter-style-airlockstandard-security = Security
+spray-painter-style-airlockstandard-Service = Service
 spray-painter-style-airlockstandard-virology = Virology
 
 spray-painter-style-airlockglass-atmospherics = Atmospherics
-spray-painter-style-airlockglass-basic = Basic
 spray-painter-style-airlockglass-cargo = Cargo
 spray-painter-style-airlockglass-chemistry = Chemistry
 spray-painter-style-airlockglass-command = Command
@@ -86,9 +86,11 @@ spray-painter-style-airlockglass-engineering = Engineering
 spray-painter-style-airlockglass-hydroponics = Hydroponics
 spray-painter-style-airlockglass-maintenance = Maintenance
 spray-painter-style-airlockglass-medical = Medical
+spray-painter-style-airlockglass-Public = Public
 spray-painter-style-airlockglass-salvage = Salvage
 spray-painter-style-airlockglass-science = Science
 spray-painter-style-airlockglass-security = Security
+spray-painter-style-airlockglass-Service = Service
 spray-painter-style-airlockglass-virology = Virology
 
 # Lockers

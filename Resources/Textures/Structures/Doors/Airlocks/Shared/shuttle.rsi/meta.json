@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/59e75bd625dee3a8c253b50d8638fddb4d47178e - then modified by 20kdc & AJCM-git",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bolted_unlit"
+    },
+    {
+      "name": "closed_unlit"
+    },
+    {
+      "name": "closing_unlit",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+      ]
+    ]
+    },
+    {
+      "name": "deny_unlit",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+      ]
+    ]
+    },
+    {
+      "name": "emergency_unlit",
+      "delays": [
+        [
+          0.4,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "opening_unlit",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+      ]
+    ]
+    },
+    {
+      "name": "panel_closing",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+      ]
+    ]
+    },
+    {
+      "name": "panel_open"
+    },
+    {
+      "name": "panel_opening",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+      ]
+    ]
+    },
+    {
+      "name": "welded"
+    }
+  ]
+}
