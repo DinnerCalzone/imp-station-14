@@ -148,23 +148,54 @@
       - Fires
       - Spacing
     - type: SyncSprite
+    - type: StationAiWhitelist
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+    - type: Construction
+      graph: Firelock
+      node: Firelock
+      containers:
+      - board
+    - type: ContainerFill
+      containers:
+        board: [ FirelockElectronics ]
 
 - type: entity
   id: Firelock
   parent: BaseFirelock
   components:
-  - type: StationAiWhitelist
-  - type: ContainerContainer
-    containers:
-      board: !type:Container
-  - type: Construction
-    graph: Firelock
-    node: Firelock
-    containers:
-    - board
-  - type: ContainerFill
-    containers:
-      board: [ FirelockElectronics ]
+  - type: Sprite
+    layers:
+    - state: closed
+      map: [ "enum.DoorVisualLayers.Base" ]
+    - state: closed_unlit
+      sprite: &components-rsi Structures/Doors/Airlocks/Shared/firelock.rsi
+      shader: unshaded
+      map: [ "enum.DoorVisualLayers.BaseUnlit" ]
+      visible: false
+    - state: welded
+      sprite: *components-rsi
+      map: [ "enum.WeldableLayers.BaseWelded" ]
+    - state: bolted_unlit
+      sprite: *components-rsi
+      shader: unshaded
+      map: [ "enum.DoorVisualLayers.BaseBolted" ]
+      visible: false
+    - state: panel_open
+      sprite: *components-rsi
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+    - state: pressure_unlit
+      sprite: *components-rsi
+      visible: false
+      shader: unshaded
+      map: [ "enum.FirelockVisualLayersPressure.Base" ]
+    - state: temperature_unlit
+      sprite: *components-rsi
+      visible: false
+      shader: unshaded
+      map: [ "enum.FirelockVisualLayersTemperature.Base" ]
+
 
 - type: entity
   id: FirelockGlass
@@ -194,8 +225,7 @@
 
 - type: entity
   id: FirelockEdge
-  parent: Firelock
-  name: firelock
+  parent: BaseFirelock
   components:
     - type: StationAiWhitelist
     - type: Sprite

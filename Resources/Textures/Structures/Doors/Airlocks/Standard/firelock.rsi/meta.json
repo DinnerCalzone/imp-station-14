@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from https://github.com/tgstation/tgstation at 04e43d8c1d5097fdb697addd4395fb849dd341bd",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/4383df09ae5809090a1d49680193e7ebefdd4ec0, modified by ShadowCommander for ss14.",
   "size": {
     "x": 32,
     "y": 32
@@ -11,13 +11,7 @@
       "name": "assembly"
     },
     {
-      "name": "bolted_unlit"
-    },
-    {
       "name": "closed"
-    },
-    {
-      "name": "closed_unlit"
     },
     {
       "name": "closing",
@@ -29,39 +23,6 @@
           0.2,
           0.2,
           0.2
-        ]
-      ]
-    },
-    {
-      "name": "closing_unlit",
-      "delays": [
-        [
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ]
-      ]
-    },
-    {
-      "name": "deny",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1
-        ]
-      ]
-    },
-    {
-      "name": "deny_unlit",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1
         ]
       ]
     },
@@ -78,9 +39,6 @@
       "name": "frame4"
     },
     {
-      "name": "locked"
-    },
-    {
       "name": "open"
     },
     {
@@ -93,83 +51,6 @@
           0.2,
           0.2,
           0.2
-        ]
-      ]
-    },
-    {
-      "name": "opening_unlit",
-      "delays": [
-        [
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ]
-      ]
-    },
-    {
-      "name": "panel_closing",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.07,
-          0.27
-        ]
-      ]
-    },
-    {
-      "name": "panel_open"
-    },
-    {
-      "name": "panel_opening",
-      "delays": [
-        [
-          0.2,
-          0.07,
-          0.07,
-          0.07,
-          0.07,
-          0.07,
-          0.2
-        ]
-      ]
-    },
-    {
-      "name": "welded"
-    },
-    {
-      "name": "welded_open"
-    },
-    {
-      "name": "emergency_unlit",
-      "delays": [
-        [
-          0.4,
-          0.4
-        ]
-      ]
-    },
-    {
-      "name": "pressure_unlit",
-      "delays": [
-        [
-          0.8,
-          0.4
-        ]
-      ]
-    },
-    {
-      "name": "temperature_unlit",
-      "delays": [
-        [
-          0.8,
-          0.4
         ]
       ]
     }
