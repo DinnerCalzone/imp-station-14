@@ -142,7 +142,7 @@
     - MobMonkeyLambordeere
 
 - type: entity
-  parent: BaseMobGray
+  parent: MobGray
   id: MobGrayParty
   name: Party Gray
   components:
