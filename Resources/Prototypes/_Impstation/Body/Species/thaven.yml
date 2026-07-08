@@ -81,7 +81,7 @@
     bloodReferenceSolution:
       reagents:
       - ReagentId: ShimmeringBlood
-        Quantity: 600
+        Quantity: 300 #imp edit, to be doubled with solutions refactor
   - type: Fixtures
     fixtures:
       fix1:
