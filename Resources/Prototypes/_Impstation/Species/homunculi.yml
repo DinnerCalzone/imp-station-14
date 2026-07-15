@@ -5,7 +5,7 @@
   prototype: HomunculusHuman
   sprites: MobHomunculusHumanSprites
   markingLimits: MobHumanMarkingLimits
-  dollPrototype: MobHumanDummy
+  dollPrototype: AppearanceHuman
   skinColoration: HumanToned
   sexes:
   - Unsexed
@@ -40,7 +40,7 @@
   prototype: HomunculusMoth
   sprites: MobHomunculusMothSprites
   markingLimits: MobHomunculusMothMarkingLimits
-  dollPrototype: MobHumanDummy
+  dollPrototype: AppearanceHuman
   skinColoration: Hues
   sexes:
   - Unsexed
@@ -116,7 +116,7 @@
   prototype: HomunculusGray
   sprites: MobHomunculusGraySprites
   markingLimits: MobGrayMarkingLimits
-  dollPrototype: MobHumanDummy
+  dollPrototype: AppearanceHuman
   skinColoration: Hues
   sexes:
   - Unsexed
@@ -151,7 +151,7 @@
   prototype: HomunculusThaven
   sprites: MobHomunculusThavenSprites
   markingLimits: MobHomunculusThavenMarkingLimits
-  dollPrototype: MobHumanDummy
+  dollPrototype: AppearanceHuman
   skinColoration: Hues
   sexes:
   - Unsexed

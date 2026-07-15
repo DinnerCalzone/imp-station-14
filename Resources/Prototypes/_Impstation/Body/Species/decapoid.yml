@@ -68,6 +68,7 @@
 - type: entity
   parent: [DecapoidSpeciesLayers, BaseSpeciesAppearance]
   id: AppearanceDecapoid
+  categories: [ HideSpawnMenu ] #imp
   name: decapoid appearance
   components:
   - type: Inventory

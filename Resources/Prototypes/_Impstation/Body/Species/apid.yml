@@ -2,6 +2,7 @@
 - type: entity
   parent: BaseSpeciesAppearance
   id: AppearanceApid
+  categories: [ HideSpawnMenu ] #imp
   name: apid appearance
   components:
   - type: Inventory

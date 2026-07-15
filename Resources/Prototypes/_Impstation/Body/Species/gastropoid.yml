@@ -2,6 +2,7 @@
 - type: entity
   parent: BaseSpeciesAppearance
   id: AppearanceGastropoid
+  categories: [ HideSpawnMenu ] #imp
   name: gastropoid appearance
   components:
   - type: Inventory

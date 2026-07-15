@@ -2,6 +2,7 @@
 - type: entity
   parent: BaseSpeciesAppearance
   id: AppearanceAllulalo
+  categories: [ HideSpawnMenu ] #imp
   name: allulalo appearance
   components:
   - type: Inventory
